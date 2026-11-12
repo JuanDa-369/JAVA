@@ -25,6 +25,15 @@ public class TestCalculadora {
 		
 		 r3 = c3.mutiplicar(2, 4);
 		 System.out.println("Resultado multiplicar:" + r3);
+		 
+		 
+		 
+		 Calculadora c4 = new Calculadora();
+		 double rDiv;
+		 
+		 rDiv = c4.dividir(10, 2);
+		 System.out.println("Resultado dividir:" + rDiv);
+		 
 	}
 
 }
