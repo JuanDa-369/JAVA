@@ -40,6 +40,13 @@ public class TestCalculadora {
 		 double rProm;
 		 rProm = c5.promedio(8.0, 10.0, 9.0);
 		 System.out.println("Resultado promedio:" + rProm);
-	}
+		 
+		 
+		 
+		
+			 c1.saludar();
+		 }
+				
+		
 
 }

@@ -37,4 +37,12 @@ public class Calculadora {
 	   resultado = suma / 3.0;
 	   return resultado;
    }
+   
+   
+
+	public void saludar() {
+		
+		System.out.println("AHIRITA NO JOVEN, SALI AL ALMUERZO.REGRESO EN 15 MINUTOS");
+	}
+   
 }
