@@ -27,6 +27,14 @@ public class Calculadora {
 	   double resultado;
 	   resultado = dividendo / divisor;
 	   return resultado;
-	   
+   }
+   
+   
+   public double promedio(double valor1, double valor2, double valor3) {
+	   double suma;
+	   double resultado;
+	   suma = valor1 + valor2 + valor3;
+	   resultado = suma / 3.0;
+	   return resultado;
    }
 }

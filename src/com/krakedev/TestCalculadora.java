@@ -34,6 +34,12 @@ public class TestCalculadora {
 		 rDiv = c4.dividir(10, 2);
 		 System.out.println("Resultado dividir:" + rDiv);
 		 
+		 
+		 
+		 Calculadora c5 = new Calculadora();
+		 double rProm;
+		 rProm = c5.promedio(8.0, 10.0, 9.0);
+		 System.out.println("Resultado promedio:" + rProm);
 	}
 
 }
