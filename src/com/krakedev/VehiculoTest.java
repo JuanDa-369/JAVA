@@ -9,42 +9,58 @@ public class VehiculoTest {
 		
 		System.out.println("====Vehiculo 1 : Creado===="); 
 		
-	    System.out.println("Año:" + v.año);
-	    System.out.println("Marca:" + v.marca);
-	    System.out.println("Modelo:" + v.modelo);
+	    System.out.println("Año:" + v.getAño());
+	    System.out.println("Marca:" + v.getMarca());
+	    System.out.println("Modelo:" + v.getModelo());
 	    
 	    System.out.println("====Vehiculo 1 : Valores asignados====");
 	    
-	    v.año = "2012";
-	    v.marca = "Chevrolet";
-	    v.modelo = "Nuevo";
+	    v.setAño("2012");
+	    v.setMarca("Chevrolet");
+	    v.setModelo("Nuevo");
 	    
 	    
-	    System.out.println("Año:" + v.año);
-	    System.out.println("Marca:" + v.marca);
-	    System.out.println("Modelo:" + v.modelo);
+	    System.out.println("Año:" + v.getAño());
+	    System.out.println("Marca:" + v.getMarca());
+	    System.out.println("Modelo:" + v.getModelo());
 	    
 		System.out.println("====Vehiculo 2 : Creado===="); 
 		
 		Vehiculo v2 = new Vehiculo(); 
 
-	    System.out.println("Año:" + v2.año);
-	    System.out.println("Marca:" + v2.marca);
-	    System.out.println("Modelo:" + v2.modelo);
+	    System.out.println("Año:" + v2.getAño());
+	    System.out.println("Marca:" + v2.getMarca());
+	    System.out.println("Modelo:" + v2.getModelo());
 	    
         System.out.println("====Vehiculo 2 : Valores asignados====");
 	    
-	    v2.año = "2016";
-	    v2.marca = "Chevrolet";
-	    v2.modelo = "El mas rapido"; 
+	    v2.setAño("2016");
+	    v2.setMarca("Chevrolet");
+	    v2.setModelo("El mas rapido"); 
 	    
 	    
-	    System.out.println("Año:" + v2.año);
-	    System.out.println("Marca:" + v2.marca);
-	    System.out.println("Modelo:" + v2.modelo);
+	    System.out.println("Año:" + v2.getAño());
+	    System.out.println("Marca:" + v2.getMarca());
+	    System.out.println("Modelo:" + v2.getModelo());
+	    
+	    System.out.println("====Vehiculo 3 : Valores asignados====");
+	  
+	    Vehiculo v3 = new Vehiculo("Toyota");
+	    
+	    System.out.println("Año:" + v3.getAño());
+	    System.out.println("Marca:" + v3.getMarca());    
+	    System.out.println("Modelo:" + v3.getModelo());
 	    
 	    
-
+	    System.out.println("====Vehiculo 4 : Valores asignados====");
+	    
+	    Vehiculo v4 = new Vehiculo("Toyota", "El mas chevere", "2012");
+	    
+	    System.out.println("Año:" + v4.getAño());
+	    System.out.println("Marca:" + v4.getMarca());
+	    System.out.println("Modelo:" + v4.getModelo());
+	    
+	  
 	}
 
 }
