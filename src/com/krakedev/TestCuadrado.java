@@ -4,7 +4,7 @@ public class TestCuadrado {
 	
 	public static void main(String[] args) {
 	Cuadrado c1 = new Cuadrado();
-	c1.lado = 4;
+	c1.setLado(4);
 	double resultadoArea1;
 	
 	resultadoArea1 = c1.CalcularArea();
@@ -14,7 +14,7 @@ public class TestCuadrado {
 	
 	
 	Cuadrado c2 = new Cuadrado();
-	c2.lado = 2;
+	c2.setLado(2);
 	double resultadoArea2;
 	
 	resultadoArea2 = c2.CalcularArea();
@@ -25,7 +25,7 @@ public class TestCuadrado {
 	
 
 	Cuadrado c3 = new Cuadrado();
-	c3.lado = 5;
+	c3.setLado(5);
 	double resultadoArea3;	
 	
 	resultadoArea3 = c3.CalcularArea();
