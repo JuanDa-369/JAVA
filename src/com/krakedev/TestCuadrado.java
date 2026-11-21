@@ -32,5 +32,16 @@ public class TestCuadrado {
 	System.out.println("Resultado Area: " + resultadoArea3);
 	double rPerimetro3 = c3.CalcularPerimetro();
 	System.out.println("Resultado Perimetro3: " + rPerimetro3);
+	
+	
+	Cuadrado c4 = new Cuadrado(8);
+	double rArea4;
+	
+	rArea4 = c4.CalcularArea();
+	System.out.println("Resultado Area 4:" + rArea4);
+	double rPerimetro4 = c4.CalcularPerimetro();
+	System.out.println("Resultado Perimetro 4:" + rPerimetro4);
+	
+	
 	}
 }
