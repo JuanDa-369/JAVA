@@ -4,6 +4,20 @@ public class Rectangulo {
 	private int base;
 	private int altura;
 	
+	
+	public Rectangulo() {
+		
+	}
+	
+	public Rectangulo(int base) {
+		this.base = base;
+	}
+	
+	public Rectangulo(int base, int altura) {
+		this.base = base;
+		this.altura = altura;
+	}
+	
 	public int CalcularArea() {
 		
 		int area = base * altura;

@@ -25,6 +25,21 @@ public class TestRectangulo {
 	double rPerimetro2 = r2.CalcularPerimetro();
 	System.out.println("Perimetro2:" + rPerimetro2);
 	
+	Rectangulo r3 = new Rectangulo(4);
+	int rArea3;
+	
+	rArea3 = r3.CalcularArea();
+	System.out.println("R Area 3:" + rArea3);
+	double rPerimetro3 = r3.CalcularPerimetro();
+	System.out.println("R Perimetro 3:" + rPerimetro3);
+	
+	Rectangulo r4 = new Rectangulo(4,8);
+	int rArea4;
+	
+	rArea4 =r4.CalcularArea();
+	System.out.println("R Area 4:" + rArea4);
+	double rPerimetro4 = r4.CalcularPerimetro();
+	System.out.println("R Perimetro 4:" + rPerimetro4);
 	}
 
 	
